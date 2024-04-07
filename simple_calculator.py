@@ -16,6 +16,8 @@
 # 연산은 arithmetic_ops 함수를 호출하며 수행한다.
 # arithmetic_ops는 연산에 관한 함수로, 내부에서 사용자에게 정수 2개를 입력받은 뒤
 # 전달받은 매개함수로 정수를 전달한다
+def add(x,y): return x+y
+
 def arithmetic_ops(op):
     num1 = int(input("input 1st number:"))
     num2 = int(input("input 2nd number:"))
